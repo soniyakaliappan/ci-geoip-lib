@@ -1,0 +1,44 @@
+CodeIgniter GeoIP Library
+================
+
+Geoip_lib es una libreria Geoip para CodeIgniter, desde la dirección ip address 
+devuelve el pais, codigo de pais, provincia, ciudad, latitud, longitud, codigo postal, 
+codigo metropolitano (USA), y codigo de area.
+
+La base de datos que usa pertenece a la empresa Maxmind especializada en soluciones Geoip profesionales.
+Ellos tambien proveen bases de datos gratuitas y codigo gratuito.
+
+
+Requirements
+------------
+
+1. PHP 5.1+
+2. CodeIgniter 1.7.x - 2.0-dev
+
+Usage
+-----
+
+	$this->load->library('geoip_lib');
+    $this->geoip_lib->InfoIP("24.24.24.24"); //For the "XXX.XXX.XXX.XXX" ip address        
+    $this->geoip_lib->InfoIP(); //For the current ip address
+	
+	echo $this->geoip_lib->result_region_name();
+	echo $this->geoip_lib->result_country_name();
+	echo $this->geoip_lib->result_city();
+	print_r($this->geoip_lib->result_array());
+
+Copyright (C) 2010  Miguel A. Carrascosa (macrvk@gmail.com)
+
+Este Programa es Software Libre: usted puede redistribuirlo y/o 
+modificarlo bajo los términos de la Licencia Publica General GNU 
+como es publicada por la Fundacion de Software Libre; en la 3ra 
+versión de la licencia, o (a su opción) cualquier versión posterior.
+
+Este programa es distribuido con la esperanza de que sea útil,
+pero SIN GARANTÍA ALGUNA; sin siquiera la garantía implícita de 
+VALOR COMERCIAL o FORMADO PARA UN PROPÓSITO EN PARTICULAR. Vea 
+la Licencia Publica General GNU para mas detalles.
+
+Usted debe haber recibido una copia de la Licencia Publica General 
+GNU junto con este programa. Si no, vaya a <http://www.gnu.org/licenses/>.
+
