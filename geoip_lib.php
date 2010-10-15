@@ -4,14 +4,26 @@
      * GeoIP Library for CodeIgniter - Version 1.0
      * Writted By Miguel A. Carrascosa (macrvk@gmail.com)
      *
+     * (English)
      * This library use the GeoLite Country (binary format) database
      * from the ip address returned country_name, country_code, region, city, 
-     * latitude, longitude, postal_code, metro_code and area_code.
+     * latitude, longitude, postal_code, metro_code (USA) and area_code.
      *
      * The database is from a company called Maxmind specializes in professional GeoIP solutions.
      * They also provide some free databases and free code. 
      * 
      * You should then be able to use the following code in your page: 
+     *
+     *
+     * (Español)
+     * Esta libreria usa la base de datos Geolite Country (formato binario) 
+     * desde la dirección ip devuelve el pais, codigo de pais, provincia, ciudad,
+     * latitud, longitud, codigo postal, codigo metropolitano (USA), y codigo de area.
+     *
+     * La base de datos pertenece a la empresa Maxmind especializada in soluciones Geoip profesionales.
+     * They tambien proveen bases de datos gratuitas y codigo gratuito.
+     * 
+     * Puedes probar su funcionamiento usando el siguiente codigo en tu página: 
      *
      * $this->load->library('geoip_lib');
      *
@@ -55,7 +67,7 @@
      *
      * Changelog:
      *
-     * 2010-10-12   Last code revision.
+     * 2010-10-16   Last code revision.
      *
      */
      
