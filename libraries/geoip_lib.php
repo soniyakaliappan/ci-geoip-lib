@@ -16,14 +16,14 @@
      *
      *
      * (Español)
-     * Esta libreria usa la base de datos Geolite Country (formato binario) 
-     * desde la dirección ip devuelve el pais, codigo de pais, provincia, ciudad,
-     * latitud, longitud, codigo postal, codigo metropolitano (USA), y codigo de area.
+     * Esta librería usa la base de datos Geolite Country (formato binario) 
+     * desde la dirección ip devuelve el país, código de país, provincia, ciudad,
+     * latitud, longitud, código postal, código metropolitano (USA), y código de area.
      *
      * La base de datos pertenece a la empresa Maxmind especializada en soluciones Geoip profesionales.
-     * Ellos tambien proveen bases de datos gratuitas y codigo gratuito.
+     * Ellos también proveen bases de datos gratuitas y código gratuito.
      * 
-     * Puedes probar su funcionamiento usando el siguiente codigo en tu página: 
+     * Puedes probar su funcionamiento usando el siguiente código en tu página: 
      *
      * $this->load->library('geoip_lib');
      *
@@ -45,7 +45,7 @@
      *
      * Custom vars
      * 
-     *  Tambien puedes usar la funcion personalizada, para devolver la cadena formateada
+     *  También puedes usar la función personalizada, para devolver la cadena formateada
      *
      *   %IP -> Ip Address
      *   %CO -> Country_code
